@@ -1,5 +1,6 @@
 streamlit==1.46.0
-openai==1.9.0
 fpdf==1.7.2
 ffmpeg-python==0.2.0
+openai>=1.0.0
+
 
