@@ -30,7 +30,6 @@ The **Meeting Minutes Summarizer** is a lightweight web app built with Streamlit
 
 ---
 
-<<<<<<< HEAD
 ## 🛠 Tech Stack
 
 - **Frontend / UI Framework:** [Streamlit](https://streamlit.io/)
@@ -43,20 +42,6 @@ The **Meeting Minutes Summarizer** is a lightweight web app built with Streamlit
 
 ---
 
-meeting-minutes-summarizer/
-│
-├── app.py                   # Main Streamlit app
-├── requirements.txt         # Python dependencies
-├── screenshots/             # Optional screenshots for README
-│   ├── home.png
-│   └── summary.png
-└── .streamlit/
-    └── secrets.toml         # API key config (not committed)
-
----
-
-=======
->>>>>>> 3b76b85d296e5d24a71061194a4eab16514ee424
 ## ⚙️ Run Locally
 
 Clone the repo and install dependencies:
