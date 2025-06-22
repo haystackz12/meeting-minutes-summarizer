@@ -2,10 +2,8 @@ import streamlit as st
 import tempfile
 import os
 from fpdf import FPDF
-from openai import OpenAI
-
-# Load API key and create OpenAI client
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+import openai
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # ──────────────────────────────────────────────────────────────
 # Streamlit page config
