@@ -3,7 +3,10 @@ import tempfile
 import os
 from fpdf import FPDF
 import openai
+
+# Set OpenAI key
 openai.api_key = st.secrets["OPENAI_API_KEY"]
+
 
 # ──────────────────────────────────────────────────────────────
 # Streamlit page config
