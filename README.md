@@ -20,13 +20,8 @@ The **Meeting Minutes Summarizer** is a lightweight web app built with Streamlit
 
 ## 📷 Screenshots
 
-> **Note:** Create a folder named `screenshots` in the repo and add these PNG files:
-
 ### Home Page  
-![Home](screenshots/home.png)
-
-### After Upload & Summary  
-![Summary](screenshots/summary.png)
+![Home](screenshots/screenshot.png)
 
 ---
 
