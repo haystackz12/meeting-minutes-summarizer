@@ -1,20 +1,11 @@
 # 📝 Meeting Minutes Summarizer
 
-The **Meeting Minutes Summarizer** is a lightweight web app built with Streamlit that allows users to upload an audio recording (MP3, WAV, or M4A) of a meeting, transcribe it using OpenAI's Whisper model, and generate a high-quality summary using GPT-4. The final summary can be downloaded in either `.txt` or `.pdf` format.
+Ahe **Meeting Minutes Summarizer** is a lightweight web app built with Streamlit that allows users to upload an audio recording (MP3, WAV, or M4A) of a meeting, transcribe it using OpenAI's Whisper model, and generate a high-quality summary using GPT-4. The final summary can be downloaded in either `.txt` or `.pdf` format.
 
----
 
-## 🚀 Features
+Upload an `.mp3`, `.wav`, or `.m4a` file, choose a summary style, and download the results in `.txt` or `.pdf`.
 
-- 🎙 Upload audio files in MP3, WAV, or M4A formats
-- 🔊 Audio preview before processing
-- 🧠 Transcription using OpenAI Whisper
-- 📝 Summarization using GPT-4 in one of three formats:
-  - Executive Summary
-  - Bullet Points
-  - Email-style Recap
-- 💾 Download the summary in `.txt` or `.pdf`
-- ⚡ Clean and mobile-friendly UI with Streamlit
+👉 **Try it live:** [https://meeting-minutes-summarizer-ksg3vwf9y9uey9hgj8pw9m.streamlit.app/](https://meeting-minutes-summarizer-ksg3vwf9y9uey9hgj8pw9m.streamlit.app/)
 
 ---
 
@@ -25,7 +16,17 @@ The **Meeting Minutes Summarizer** is a lightweight web app built with Streamlit
 
 ---
 
-## 🛠 Tech Stack
+## 💡 Features
+
+- 🎙 Upload your audio recording
+- 🧠 Auto-transcribe with OpenAI Whisper
+- ✍️ Summarize with GPT-4 (Executive / Bullet / Email styles)
+- 💾 Download as `.txt` or `.pdf`
+- 🎧 In-browser audio preview
+
+---
+
+## 🚀 Tech Stack
 
 - **Frontend / UI Framework:** [Streamlit](https://streamlit.io/)
 - **Language:** Python 3.10+
@@ -37,14 +38,26 @@ The **Meeting Minutes Summarizer** is a lightweight web app built with Streamlit
 
 ---
 
-## ⚙️ Run Locally
+## Acknowledgments
 
-Clone the repo and install dependencies:
+This project was made possible using the following open-source and cloud technologies:
+
+OpenAI Whisper
+OpenAI GPT-4
+Streamlit
+FPDF for Python
+Python
+
+Special thanks to the open-source community and Streamlit Cloud for providing a free hosting platform.
+
+---
+
+## 🧪 Local Setup
 
 ```bash
 git clone https://github.com/haystackz12/meeting-minutes-summarizer.git
 cd meeting-minutes-summarizer
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
